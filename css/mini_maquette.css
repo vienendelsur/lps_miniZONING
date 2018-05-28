@@ -1,0 +1,66 @@
+@charset utf-8;
+
+/* style de mini zoning */
+
+body {
+    background-color: bisque;
+    margin: 0 auto;
+    color: white;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    background: white;
+}
+
+header {
+    background: olive;
+    height: 100px;
+}
+
+nav {
+    background: orange;
+    height: 50px;
+}
+
+section {
+    background: lightgreen;
+    height: 250px;
+}
+
+#nav_gauche {
+    float: left;
+    width: 300px;
+    background: #333;
+    min-height: 300px;   
+}
+
+#main {
+    float: right;
+    width: 700px;
+    background: lightblue;
+}
+
+footer {
+    height: 100px;
+    background: palevioletred;
+}
+
+.clear {
+    clear: both;
+}
+
+article {
+    background-color: lightskyblue;
+    float: left;
+    width: 300px;
+    min-height: 200px;
+}
+
+.aside_droite {
+    float: right;
+    background: cadetblue;
+    width: 300px;
+    min-height: 200px;
+}
