@@ -1,12 +1,12 @@
 body {
-     background: bisque;
+     background: rgba(182, 93, 93);
      margin: 0 auto;
      color: white;
  }
 /* l'enveloppe principale de la page */
 #container {
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
     background: linear-gradient(red, white);
 }
 
@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-  height: 50px;
+  height: 150px;
   background: #e6891f;
 }
 
@@ -51,14 +51,14 @@ footer {
 
   article { 
       background: yellowgreen;
-      width: 49%;
+      width: 50%;
       float: left;
       /* margin-top: 50px; */
   }
 
   aside {
       background: purple;
-      width: 49%;
+      width: 50%;
       float: right;
       /* margin-top: 50px; */
   }
