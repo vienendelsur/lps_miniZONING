@@ -20,6 +20,14 @@ nav {
   background: #e6891f;
 }
 
+nav ul li {
+  display: inline-block;
+  background: white;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+
 #nav_gauche {
     background: #333;
     float: left;
